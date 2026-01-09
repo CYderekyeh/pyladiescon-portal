@@ -86,3 +86,5 @@ clean:
 	rm -f .state/db-initialized
 	rm -f .state/db-migrated
 
+.PHONY: default serve shell dbshell manage migrations migrate lint reformat test check create_translations compile_translations clean
+
